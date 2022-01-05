@@ -1,1 +1,1 @@
-Courses querying system for class project.
+Courses querying system written in TypeScript for class project.
