@@ -1,0 +1,43 @@
+{
+    "title": "Search by all m keys, using LT and OR",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "LT": {
+                        "courses_avg": 50
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_pass": 50
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_fail": 50
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_audit": 10
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_year": 2008
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

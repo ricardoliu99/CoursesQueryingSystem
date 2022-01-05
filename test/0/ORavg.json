@@ -1,0 +1,61 @@
+{
+    "title": "or logic with average filters",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "EQ": {
+                        "courses_avg": 99
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 98
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "crwr",
+            "courses_id": "599",
+            "courses_avg": 98,
+            "courses_instructor": "grady, albert wayne",
+            "courses_title": "thesis",
+            "courses_pass": 1,
+            "courses_fail": 0,
+            "courses_audit": 0,
+            "courses_uuid": "46412",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_id": "599",
+            "courses_avg": 98,
+            "courses_instructor": "maillard, keith",
+            "courses_title": "thesis",
+            "courses_pass": 1,
+            "courses_fail": 0,
+            "courses_audit": 0,
+            "courses_uuid": "46405",
+            "courses_year": 2013
+        }
+    ]
+}

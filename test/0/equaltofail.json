@@ -1,0 +1,76 @@
+{
+    "title": "filter by number of fails equal to",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_fail": 69
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "psyc",
+            "courses_id": "101",
+            "courses_avg": 67.55,
+            "courses_instructor": "",
+            "courses_title": "bio cog psych",
+            "courses_pass": 723,
+            "courses_fail": 69,
+            "courses_audit": 0,
+            "courses_uuid": "80340",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 71.49,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2466,
+            "courses_fail": 69,
+            "courses_audit": 0,
+            "courses_uuid": "57114",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_id": "114",
+            "courses_avg": 72.59,
+            "courses_instructor": "",
+            "courses_title": "catastroph earth",
+            "courses_pass": 1950,
+            "courses_fail": 69,
+            "courses_audit": 0,
+            "courses_uuid": "2369",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_id": "112",
+            "courses_avg": 73.56,
+            "courses_instructor": "",
+            "courses_title": "biology of cell",
+            "courses_pass": 1630,
+            "courses_fail": 69,
+            "courses_audit": 0,
+            "courses_uuid": "42111",
+            "courses_year": 1900
+        }
+    ]
+}

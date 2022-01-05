@@ -1,0 +1,151 @@
+{
+    "title": "When column is a subset of group union apply",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "rooms_furniture": "*Tables*"
+                    }
+                },
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_fullname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_type",
+                "rooms_href",
+                "rooms_lat",
+                "maxSeats"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "maxSeats"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_fullname",
+                "rooms_shortname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_address",
+                "rooms_type",
+                "rooms_furniture",
+                "rooms_href",
+                "rooms_lat",
+                "rooms_lon",
+                "rooms_seats"
+            ],
+            "APPLY": [
+                {
+                    "maxSeats": {
+                        "MAX": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_fullname": "Robert F. Osborne Centre",
+            "rooms_number": "A",
+            "rooms_name": "OSBO_A",
+            "rooms_type": "Open Design General Purpose",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/OSBO-A",
+            "rooms_lat": 49.26047,
+            "maxSeats": 442
+        },
+        {
+            "rooms_fullname": "Hebb",
+            "rooms_number": "100",
+            "rooms_name": "HEBB_100",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-100",
+            "rooms_lat": 49.2661,
+            "maxSeats": 375
+        },
+        {
+            "rooms_fullname": "Life Sciences Centre",
+            "rooms_number": "1001",
+            "rooms_name": "LSC_1001",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1001",
+            "rooms_lat": 49.26236,
+            "maxSeats": 350
+        },
+        {
+            "rooms_fullname": "Life Sciences Centre",
+            "rooms_number": "1002",
+            "rooms_name": "LSC_1002",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1002",
+            "rooms_lat": 49.26236,
+            "maxSeats": 350
+        },
+        {
+            "rooms_fullname": "Student Recreation Centre",
+            "rooms_number": "220A",
+            "rooms_name": "SRC_220A",
+            "rooms_type": "TBD",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220A",
+            "rooms_lat": 49.2683,
+            "maxSeats": 299
+        },
+        {
+            "rooms_fullname": "Student Recreation Centre",
+            "rooms_number": "220B",
+            "rooms_name": "SRC_220B",
+            "rooms_type": "TBD",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220B",
+            "rooms_lat": 49.2683,
+            "maxSeats": 299
+        },
+        {
+            "rooms_fullname": "Student Recreation Centre",
+            "rooms_number": "220C",
+            "rooms_name": "SRC_220C",
+            "rooms_type": "TBD",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220C",
+            "rooms_lat": 49.2683,
+            "maxSeats": 299
+        },
+        {
+            "rooms_fullname": "Henry Angus",
+            "rooms_number": "098",
+            "rooms_name": "ANGU_098",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-098",
+            "rooms_lat": 49.26486,
+            "maxSeats": 260
+        },
+        {
+            "rooms_fullname": "Pharmaceutical Sciences Building",
+            "rooms_number": "1101",
+            "rooms_name": "PHRM_1101",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-1101",
+            "rooms_lat": 49.26229,
+            "maxSeats": 236
+        },
+        {
+            "rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+            "rooms_number": "200",
+            "rooms_name": "LSK_200",
+            "rooms_type": "Tiered Large Group",
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-200",
+            "rooms_lat": 49.26545,
+            "maxSeats": 205
+        }
+    ]
+}

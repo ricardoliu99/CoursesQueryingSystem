@@ -1,0 +1,48 @@
+{
+    "title": "Search a specific section by providing all s keys",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "palyart-lamarche, marc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_uuid": "1293"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_title": "intr sftwr eng"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_id": "310"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310"
+        }
+    ]
+}

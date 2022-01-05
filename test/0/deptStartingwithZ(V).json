@@ -1,0 +1,164 @@
+{
+    "title": "Show DEPT that start letter z",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "z*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "549"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        },
+        {
+            "courses_dept": "zool",
+            "courses_id": "503"
+        }
+    ]
+}

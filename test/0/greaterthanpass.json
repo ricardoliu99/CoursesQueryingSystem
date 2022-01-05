@@ -1,0 +1,148 @@
+{
+    "title": "filter number of passing greater than",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2300
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "econ",
+            "courses_id": "101",
+            "courses_avg": 68.4,
+            "courses_instructor": "",
+            "courses_title": "prncpls micrecon",
+            "courses_pass": 2378,
+            "courses_fail": 132,
+            "courses_audit": 0,
+            "courses_uuid": "90881",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_id": "101",
+            "courses_avg": 69.82,
+            "courses_instructor": "",
+            "courses_title": "prncpls micrecon",
+            "courses_pass": 2438,
+            "courses_fail": 135,
+            "courses_audit": 0,
+            "courses_uuid": "74279",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 71.49,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2466,
+            "courses_fail": 69,
+            "courses_audit": 0,
+            "courses_uuid": "57114",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 71.51,
+            "courses_instructor": "",
+            "courses_title": "univrsty writing",
+            "courses_pass": 2502,
+            "courses_fail": 65,
+            "courses_audit": 0,
+            "courses_uuid": "97419",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 71.71,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2557,
+            "courses_fail": 59,
+            "courses_audit": 0,
+            "courses_uuid": "95219",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 71.91,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2994,
+            "courses_fail": 63,
+            "courses_audit": 0,
+            "courses_uuid": "41461",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 72.02,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2491,
+            "courses_fail": 57,
+            "courses_audit": 0,
+            "courses_uuid": "48364",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 72.59,
+            "courses_instructor": "",
+            "courses_title": "univrsty writing",
+            "courses_pass": 2498,
+            "courses_fail": 45,
+            "courses_audit": 0,
+            "courses_uuid": "37222",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 72.91,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2698,
+            "courses_fail": 79,
+            "courses_audit": 0,
+            "courses_uuid": "42865",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "112",
+            "courses_avg": 73.17,
+            "courses_instructor": "",
+            "courses_title": "strat univ writ",
+            "courses_pass": 2655,
+            "courses_fail": 52,
+            "courses_audit": 0,
+            "courses_uuid": "64334",
+            "courses_year": 1900
+        }
+    ]
+}

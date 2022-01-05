@@ -1,0 +1,18 @@
+{
+    "title": "Avg > 100 is still valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg"
+            ]
+
+        }
+    },
+    "isQueryValid": true,
+    "result":[]
+}

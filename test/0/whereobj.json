@@ -1,0 +1,12 @@
+{
+    "title": "where object entry",
+    "query": {
+        "WHERE": [],
+        "OPTIONS": {
+            "COLUMNS": {},
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

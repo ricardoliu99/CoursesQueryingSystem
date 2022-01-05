@@ -1,0 +1,40 @@
+{
+    "title": "Referenced dataset \"room\" not added yet",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "  "
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "  "
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "room_shortname"
+            ],
+            "APPLY": [
+                {
+                    "  ": {
+                        "SUM": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

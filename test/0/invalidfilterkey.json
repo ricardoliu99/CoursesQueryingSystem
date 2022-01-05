@@ -1,0 +1,19 @@
+{
+    "title": "invalid filter key input",
+    "query": {
+        "WHERE": {
+            "ISS": {
+                "courses_dept": "69"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

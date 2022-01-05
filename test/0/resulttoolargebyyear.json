@@ -1,0 +1,21 @@
+{
+    "title": "result too large. filter by year.",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_year": 1900
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor",
+                "courses_title",
+                "courses_year"
+            ],
+            "ORDER": "courses_year"
+        }
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

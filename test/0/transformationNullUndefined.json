@@ -1,0 +1,29 @@
+{
+    "title": "Cannot read property 'hasOwnProperty' of null",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "  "
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "  "
+                ]
+            }
+        },
+        "TRANSFORMATIONS": null
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

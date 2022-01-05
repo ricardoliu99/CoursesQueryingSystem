@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, has string instead of an object following the syntax",
+    "query": "hello world",
+    "isQueryValid": false,
+    "result": "InsightError"
+}

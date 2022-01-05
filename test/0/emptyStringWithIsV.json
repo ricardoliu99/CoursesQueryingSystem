@@ -1,0 +1,29 @@
+{
+    "title": "Input string for SCOMPARISON is empty string",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": ""
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_avg": 40
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

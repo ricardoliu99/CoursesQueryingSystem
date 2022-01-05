@@ -1,0 +1,69 @@
+{
+    "title": "Search by DEPT and INSTRUCTOR",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "baniassad, elisa"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210"
+        }
+    ]
+}

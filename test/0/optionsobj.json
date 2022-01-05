@@ -1,0 +1,13 @@
+{
+    "title": "entry object entry",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 99
+            }
+        },
+        "OPTIONS": []
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Referencing a dataset that has not been added",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "invalidDataset_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "invalidDataset_dept",
+                "invalidDataset_avg"
+            ],
+            "ORDER": "invalidDataset_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

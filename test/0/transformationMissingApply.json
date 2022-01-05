@@ -1,0 +1,33 @@
+{
+    "title": "TRANSFORMATIONS missing APPLY",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "  "
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "  "
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_shortname"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

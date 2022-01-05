@@ -1,0 +1,18 @@
+{
+    "title": "undefined column group",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 99
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                ""
+            ],
+            "ORDER": ""
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

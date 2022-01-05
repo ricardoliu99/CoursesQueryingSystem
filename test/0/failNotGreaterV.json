@@ -1,0 +1,2747 @@
+{
+    "title": "Show DEPT where FAIL is not greater than 1",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "NOT": {
+                        "GT": {
+                            "courses_fail": 1
+                        }
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_fail"
+            ],
+            "ORDER": "courses_fail"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "589",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "547",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "547",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "547",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "547",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "544",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "543",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "527",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "522",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "515",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "509",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "507",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "502",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "501",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "490",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "422",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "418",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "418",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "340",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "340",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "322",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "322",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "313",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "313",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "301",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 0
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "521",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "513",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "503",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "500",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "449",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "445",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "444",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "430",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "425",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "421",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "420",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "420",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "418",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "418",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "416",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "415",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "415",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "411",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "410",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "404",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "344",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "340",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "340",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "322",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "322",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "322",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "320",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "320",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "319",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "317",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "317",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "314",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "313",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "313",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "312",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "311",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "310",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "304",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "303",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "302",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "221",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "213",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "210",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "121",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 1
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "110",
+            "courses_fail": 1
+        }
+    ]
+}

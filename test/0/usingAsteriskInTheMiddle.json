@@ -1,0 +1,19 @@
+{
+    "title": "Asterisk cannot be in the middle, has to be first, last, or only character",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "a*a"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,17 @@
+{
+    "title": "OR needs to have at least one object",
+    "query": {
+        "WHERE": {
+            "OR": []
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,7 @@
+{
+    "title": "Error: Invalid query string. Missing options.",
+    "query": { "WHERE": {} },
+
+    "isQueryValid": false,
+    "result": "InsightError"
+}

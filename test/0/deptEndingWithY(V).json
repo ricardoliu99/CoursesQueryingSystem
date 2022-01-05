@@ -1,0 +1,36 @@
+{
+    "title": "Show DEPT that ends with letter y",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "*y"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "ursy",
+            "courses_id": "520"
+        },
+        {
+            "courses_dept": "ursy",
+            "courses_id": "520"
+        },
+        {
+            "courses_dept": "ursy",
+            "courses_id": "510"
+        },
+        {
+            "courses_dept": "ursy",
+            "courses_id": "510"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "title": "Extra keys in TRANSFORMATIONS",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 222
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "  "
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "  ",
+                    "rooms_shortname"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_shortname"
+            ],
+            "APPLY": [
+                {
+                    "  ": {
+                        "SUM": "rooms_seats"
+                    }
+                }
+            ],
+            "ha": null
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

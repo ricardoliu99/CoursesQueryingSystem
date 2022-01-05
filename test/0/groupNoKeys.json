@@ -1,0 +1,38 @@
+{
+    "title": "GROUP must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "  "
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "  "
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": null,
+            "APPLY": [
+                {
+                    "  ": {
+                        "SUM": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

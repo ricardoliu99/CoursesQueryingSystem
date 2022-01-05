@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, has number instead of an object following the syntax",
+    "query": 1234,
+    "isQueryValid": false,
+    "result": "InsightError"
+}

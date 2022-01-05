@@ -1,0 +1,52 @@
+{
+    "title": "filter by equal to audit",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_audit": 21
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "rhsc",
+            "courses_id": "501",
+            "courses_avg": 86.89,
+            "courses_instructor": "",
+            "courses_title": "eval src evidenc",
+            "courses_pass": 18,
+            "courses_fail": 0,
+            "courses_audit": 21,
+            "courses_uuid": "76489",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_id": "540",
+            "courses_avg": 90.53,
+            "courses_instructor": "",
+            "courses_title": "machine learn i",
+            "courses_pass": 59,
+            "courses_fail": 0,
+            "courses_audit": 21,
+            "courses_uuid": "62475",
+            "courses_year": 1900
+        }
+    ]
+}

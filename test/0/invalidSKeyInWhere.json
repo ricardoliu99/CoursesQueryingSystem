@@ -1,0 +1,19 @@
+{
+    "title": "Invalid s key in WHERE",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_detp": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

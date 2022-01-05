@@ -1,0 +1,148 @@
+{
+    "title": "course average equal to",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_avg": 69
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "wrds",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "wood",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "visa",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "stat",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "span",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "span",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "span",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "soci",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "phys",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "musc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "musc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "math",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "japn",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "japn",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "ital",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "ital",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "geog",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "geog",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "educ",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "educ",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "econ",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "econ",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "comm",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "chem",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "chem",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "chem",
+            "courses_avg": 69
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 69
+        }
+    ]
+}

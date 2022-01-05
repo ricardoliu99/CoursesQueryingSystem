@@ -1,0 +1,6 @@
+{
+    "title": "missing where in query",
+    "query": {},
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,88 @@
+{
+    "title": "Search sections with all m keys, using GT and AND",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "courses_avg": 84.6
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_pass": 1
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_fail": 0
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_audit": 0
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_year": 2008
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "asia",
+            "courses_id": "370"
+        },
+        {
+            "courses_dept": "biol",
+            "courses_id": "501"
+        },
+        {
+            "courses_dept": "civl",
+            "courses_id": "504"
+        },
+        {
+            "courses_dept": "civl",
+            "courses_id": "418"
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_id": "213"
+        },
+        {
+            "courses_dept": "econ",
+            "courses_id": "527"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "321"
+        },
+        {
+            "courses_dept": "lled",
+            "courses_id": "441"
+        },
+        {
+            "courses_dept": "medi",
+            "courses_id": "501"
+        },
+        {
+            "courses_dept": "mine",
+            "courses_id": "480"
+        },
+        {
+            "courses_dept": "mine",
+            "courses_id": "350"
+        }
+    ]
+}

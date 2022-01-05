@@ -1,0 +1,76 @@
+{
+    "title": "filter by AND with all keys",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "courses_avg": 99
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_pass": 1000
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_fail": 1000
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_audit": 30
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_year": 1999
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_id": "537"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "scott, douglas"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_title": "astronomical lab"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_uuid": "42532"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "astr"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}
